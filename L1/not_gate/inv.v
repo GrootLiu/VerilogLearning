@@ -4,7 +4,7 @@ module inv (A,
             Y);
     //定义端口属性
     input A;
-    output Y;
+    output A;
     //assign定义输入输出关系
     assign Y = ~A;
 endmodule
